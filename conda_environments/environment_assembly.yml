@@ -1,0 +1,10 @@
+name: assembly
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastqc
+  - quast
+  - fastp
+  - spades

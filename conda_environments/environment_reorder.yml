@@ -1,0 +1,9 @@
+name: reorder
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - mummer
+  - gnuplot
+  - mauve

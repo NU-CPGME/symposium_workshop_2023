@@ -1,0 +1,9 @@
+name: alignment
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ivar
+  - snippy=4.6.0
+  - snpeff=4

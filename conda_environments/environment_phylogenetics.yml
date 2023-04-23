@@ -1,0 +1,9 @@
+name: phylogenetics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - treetime
+  - iqtree
+  - mafft
