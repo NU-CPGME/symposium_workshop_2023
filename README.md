@@ -33,7 +33,7 @@
 
 ### 1A. [Example data download](part_1/1A_example_data.md)
 
-### 1B. [Quality control and trimming of sequencing reads](part_1/1B_reads.md)
+### 1B. [Quality control and trimming of sequencing reads](part_1/1B_read_qc_trim.md)
 
 ### 1D. [Sequence assembly](part_1/1C_assembly.md)
 
