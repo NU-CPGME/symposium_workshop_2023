@@ -11,12 +11,17 @@ Both the conda environments and example data for this workshop are pre-loaded on
 
 ### [Download data](https://downgit.github.io/#/home?url=https://github.com/NU-CPGME/aku_genomics_workshop_2022/tree/master/demo_data)
 
-> If you get a browser error trying to follow the link above, you should instead go to the DownGit website [https://minhaskamal.github.io/DownGit/#/home](https://minhaskamal.github.io/DownGit/#/home), paste the following link into the box: 
+### [Download Conda environments](https://downgit.github.io/#/home?url=https://github.com/NU-CPGME/symposium_workshop_2023/tree/main/conda_environments)
+
+> If you get a browser errors trying to follow the links above, you should instead go to the DownGit website [https://minhaskamal.github.io/DownGit/#/home](https://minhaskamal.github.io/DownGit/#/home), paste the following links into the box (one at a time): 
 > 
 > https://github.com/NU-CPGME/aku_genomics_workshop_2022/tree/master/demo_data
 > 
+> https://github.com/NU-CPGME/symposium_workshop_2023/tree/main/conda_environments
+> 
 > and click "Download". 
 
+For more information about creating Conda environments from .yml files, see the page on [installing and managing software](../part_0/0D_software.md#condainstall).
 
 ---
 

@@ -12,6 +12,22 @@ Conda is a software package manager that allows you to easily install much of th
 
 For a nice introduction to conda, see [this tutorial](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533) or [here](https://docs.conda.io/projects/conda/en/latest/index.html) for more detail. 
 
+> <img src="../images/warn.png" width="20"/> You may want to consider looking into installing [Mamba](https://mamba.readthedocs.io/en/latest/index.html) instead of Conda. Although Conda is very well-developed, it still often runs into slow-downs or difficulties installing software that can be very hard to puzzle out. Mamba performs the same functions as Conda, but seems to install software much more quickly and smoothly. If you choose to try Mamba instead, for the purposes of this workshop I'd recommend installing Micromamba instead. To do so, replace steps A and B below with the following code for Linux or WSL:
+> 
+> ```Shell
+> curl micro.mamba.pm/install.sh | bash
+> ```  
+> 
+> or on Mac:
+> 
+> ```Shell
+> brew install micromamba
+> ```
+> 
+> Then in every step below everywhere you seen `conda` type `micromamba` instead.
+> 
+
+
 ### Step 1.A - Download Miniconda installer:
 
 System requirements and installer downloads for Mac, PC, and Linux can be found at [this site](https://docs.conda.io/en/latest/miniconda.html). The links below are for the latest Python 3.9 versions of the packages for each system:  
@@ -48,7 +64,7 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-### Step 1.E - Install packages in environments:
+### <a name="condainstall"></a>Step 1.E - Install packages in environments:
 
 Conda environments can be set up by 1) manually creating a new environment and then adding software packages to the environment one at a time, 2) listing the software you want added to the environment when you create it, or 3) by using a specially formatted `environment.yml` file to create the environnment and install all the correct packages in one step. If you want more detail about setting up Conda environments, take a look [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
@@ -84,7 +100,7 @@ conda env create -f environment.yml
 
 We are going to use software in conda environments for several exercies in the rest of the workshop.  Use the link below to download the environment files for installation using the method above. 
 
-### [Download Conda environments](https://downgit.github.io/#/home?url=https://github.com/NU-CPGME/aku_genomics_workshop_2022/tree/master/conda_environments) 
+### [Download Conda environments](https://downgit.github.io/#/home?url=https://github.com/NU-CPGME/symposium_workshop_2023/tree/main/conda_environments) 
 
 > If you get a browser error trying to follow the link above, you should instead go to the DownGit website [https://minhaskamal.github.io/DownGit/#/home](https://minhaskamal.github.io/DownGit/#/home), paste the following link into the box: 
 > 

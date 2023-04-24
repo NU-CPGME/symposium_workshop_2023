@@ -5,7 +5,8 @@
 ### 2nd Annual Pathogen Genomics Symposium
 **April 24, 2023**
 
-## [https://bit.ly/pathogen22](https://bit.ly/pathogen22)
+## [https://bit.ly/cpgme_workshop_2023](https://bit.ly/cpgme_workshop_2023)
+
 
 *Egon A. Ozer, MD PhD (<e-ozer@northwestern.edu>)*  
 *Ramon Lorenzo Redondo, PhD (<ramon.lorenzo@northwestern.edu>)*   
