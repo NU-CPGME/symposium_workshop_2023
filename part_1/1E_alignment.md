@@ -54,7 +54,7 @@ snippy \
 	--reference reference/GAS_NGAS638.gbk \
 	--R1 reads/GAS_1.fastq.gz \
 	--R2 reads/GAS_2.fastq.gz \
-	--cpus 1 \ 
+	--cpus 1 \
 	--ram 6
 ```
 

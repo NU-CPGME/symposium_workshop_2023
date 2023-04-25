@@ -27,7 +27,7 @@
 
 ### 0E. [Bash loops and basic automation](part_0/0E_bash.md)
 
-### 0F. [Introduction to sequence data and file types](part_0/0F_file_types_.md)
+### 0F. [Introduction to sequence data and file types](part_0/0F_file_types.md)
 
 ## Part 1: Microbial Sequence Analysis  
 
